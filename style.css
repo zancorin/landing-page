@@ -1,9 +1,9 @@
 * {
     margin:0;
     padding:0;
-    /*
-    border: 2px solid red;
-    */
+    
+   /* border: 1px solid red;*/
+    
 }
 
 body {
@@ -36,3 +36,51 @@ header {
 
   }
 
+.main1 {
+    display:flex;
+    background: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height:400px;
+    gap:40px;
+}
+
+.main1-left,
+.main1-right {
+
+    height:250px;
+    width:500px;
+
+}
+
+.main1-left {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.main1-left > h1 {
+    font-size: 48px;
+}
+
+.main1-left > p {
+    font-size: 18px;
+}
+
+
+.button {
+        width:125px;
+        background-color: #3882F6;
+        border: none;
+        color: white;
+        padding: 10px 30px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius:8px;
+        flex: 0 0 10;
+      
+}
