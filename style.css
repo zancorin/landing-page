@@ -138,3 +138,31 @@ header {
 .item > p {
     padding-top:10px;
 }
+
+.main3 {
+    /*align-self: center;*/
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    height:350px;
+    /*width: 1000px;*/
+    background-color: #E5E7EB;
+}
+
+.main3 > .quote {
+    /*justify-self: center;*/
+   /* padding: 0 350px;*/
+    font-size:36px;
+    font-style: italic;
+    color:#1F2937;
+    font-weight: 200;
+    width:750px;
+}
+.main3 > .quote-name {
+    align-self:flex-end;
+    width:750px;
+    font-weight:700;
+    font-size:25px;
+    /*justify-self: flex-end;*/
+}
